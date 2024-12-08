@@ -16,7 +16,7 @@ const BuyNowModal = ({ addressInfo, setAddressInfo, buyNowFunction }) => {
 
     const cartItems = useSelector((state) => state.cart);
 
-    initMercadoPago('TEST-abd60b3d-44ea-4bfa-862f-aa60890dd3f1');
+    initMercadoPago('APP_USR-26e4d070-50ed-46ae-82bf-efab896454fa');
 
     useEffect(() => {
         setPreferenceId(null);
